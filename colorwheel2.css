@@ -1,0 +1,52 @@
+
+body{
+    background: url(colorwheel2.png) no-repeat center center fixed;
+    background-color: rgb(255, 255, 255) ;
+      position: fixed center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+     
+    }
+
+.colorwheel,img{
+    position: fixed;   
+        width:1200px;
+        top: 10px;
+        left: 170px;
+        z-index: 1;
+}
+    
+
+
+
+img{
+        position: fixed;   
+        position:absolute;
+        opacity: 0;  
+            
+            
+        }
+
+        .img-1{
+        position: fixed;   
+        width:350px;
+     top: 370px;
+        left: 320px;
+        z-index: 1;
+        }
+
+        .img-2{
+            position: fixed;   
+            width:350px;
+         top: 25px;
+            left: 780px;
+            z-index: 1;
+            }
+   
+        
+        img:hover{
+            opacity: 1;
+        } 
+        

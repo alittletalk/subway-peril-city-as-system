@@ -1,0 +1,60 @@
+body{
+   
+    background-color: rgb(255, 255, 255) ;
+
+    position:fixed;
+}
+
+
+#entrance,img{ 
+    position:absolute;
+    left: 110px;
+    top:-10px;
+    width: 1200px;
+    height: 900px;
+}
+
+.up{
+    position:absolute;
+    width: 180px;
+    height: 200px; 
+    left: 600px;
+    top:400px;
+}
+
+#station,img{
+    position:absolute;
+    left: 110px;
+    top:-10px;
+    width: 1200px;
+    height: 900px;
+}
+.left{
+    position:absolute;
+    width: 230px;
+    height: 180px; 
+    left: 10px;
+    top:300px; 
+}
+.right{
+    position:absolute;
+    width: 230px;
+    height: 180px; 
+    left: 1200px;
+    top:300px; 
+}
+
+
+
+#platform-img{
+    position:absolute;
+    left: 110px;
+    top:-10px;
+    width: 1200px;
+    height: 900px;
+}
+
+
+
+
+

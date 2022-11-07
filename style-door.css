@@ -1,0 +1,126 @@
+
+body{
+    background: url(door.png) no-repeat center center fixed;
+    background-color: rgb(255, 255, 255) ;
+      position: fixed center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+     
+    }
+    
+    
+    
+    img{
+    position: fixed;   
+    position:absolute;
+    opacity: 0;  
+        
+        
+    }
+    .img-1{
+    position: fixed;   
+    width:250px;
+    height: 190px;
+    top:    290px;
+    left: 680px;
+    z-index: 10;
+    }
+    .img-2{
+        position: fixed;   
+        width:1200px;
+        height: 200px;
+        bottom: 280px;
+        left: 239px;
+        z-index: 6;
+        }
+    
+    
+        .img-3{
+            position: fixed;   
+            width:1500px;
+            height: 200px;
+            left: -10px;
+            top:700px;
+            z-index: 5;
+            }
+    
+    
+    img:hover{
+        opacity: 1;
+    }
+    #chat-2{
+        z-index: 4;
+        opacity: 1;
+        width: 300px;
+        left: 450px;
+        top: 70px;
+        border-radius: 20px;
+        border: 5px solid rgb(0, 0, 0);
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #chat-3{
+        z-index: 3;
+        opacity: 1;
+        width: 300px;
+        left: 100px;
+        top: 350px;
+        border-radius: 20px;
+        border: 5px solid rgb(0, 0, 0);
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #news-2{
+        z-index: 2;
+        opacity: 1;
+        width: 300px;
+        left: 900px;
+        top: 70px;
+        border-radius: 20px;
+        border: 5px solid rgb(0, 0, 0);
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+#click{
+    opacity: 1;
+    z-index: 1;
+    width: 300px;
+}
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 195, 255, 0.5);
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  #overlay1 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 153, 0, 0.5);
+    z-index: 1;
+    cursor: pointer;
+  }
+
+#blue img{
+    position: fixed;   
+    position:absolute;
+
+ 
+  }
